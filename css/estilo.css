@@ -25,6 +25,9 @@ img {
 section {
     color: blue;
 }
+.container {
+    color: blue;
+}
 
 aside {
     float: left;
@@ -39,11 +42,7 @@ footer {
 nav {
     padding-top: 70px;
 }
-center {
-    width: 150px;
-    height: 150px;
-    padding-top: 50px;
-}
+
 .container-sm {
     background-color: white; 
         
