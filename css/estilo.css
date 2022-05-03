@@ -9,12 +9,42 @@ body {
     text-align: center;
 }
 
+.subtitulo {
+    text-align: center;
+}
+
 h4 {
     color: cadetblue;
 }
 
 img {
-    /* float: right; */ /*no tiene el atributo center? */
     width: auto;
     height: auto;
+}
+
+section {
+    color: blue;
+}
+
+aside {
+    float: left;
+}
+
+footer {
+    float: right;
+    position: relative;
+    padding-right: 150px;
+}
+
+nav {
+    padding-top: 70px;
+}
+center {
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+}
+.container-sm {
+    background-color: white; 
+        
 }
