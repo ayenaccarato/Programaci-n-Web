@@ -1,5 +1,6 @@
 body {
-    background-color: burlywood;
+    background-image: url(../imagenes/empanadas.jpg);
+    background-attachment: fixed;
     font-size: normal;
     text-align: left;
     color: lightslategray;
@@ -22,29 +23,85 @@ img {
     height: auto;
 }
 
+header {
+    background-color: beige;
+    border: 5px solid black;
+    padding: 10px;
+    
+}
+
 section {
+    background-color: black;
     color: blue;
+    width: 48%;
+    float: left;
+    margin: 1%; 
+    padding: 10px;   
+    border: 5px double beige;
+    box-sizing: border-box;
+    height: 1080px;
+    overflow: auto;
+}
+
+aside {
+    background-color: black;
+    width: 48%;
+    float: left;
+    margin: 1%;
+    border: 5px inset beige;
+    box-sizing: border-box;
+    height: 860px;
+    overflow: auto;
+}
+
+footer { 
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    width: 100px;
+    height: 100px;
+}
+
+.icono {
+    width: 50%;
 }
 
 .container {
     color: blue;
-}
-
-aside {
-    float: left;
-}
-
-footer {
-    float: right;
-    position: relative;
-    padding-right: 150px;
+    border: black;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
 }
 
 nav {
-    padding-top: 70px;
+    background-color: brown;
+    margin: 1%;
+    width: 48%;
+    float: right;
+    border: 5px double black;
+    box-sizing: border-box;
+    height: 200px;
 }
 
-.container-sm {
-    background-color: white; 
-        
+.contacto:hover {
+    background-color: cornflowerblue;
+}
+
+.link:hover {
+    background-color: coral;
+}
+
+.col:hover{
+    color: white;
+    font-size: 20px;
+}
+.item:hover{
+    color: white;
+    font-size: 20px;
+}
+
+.mensaje {
+    color: white;
 }
